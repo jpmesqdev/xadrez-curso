@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4933b379-0143-49eb-8f22-9acd1e228bf4" name="Changes" comment="Create ChessMatch and UI">
-      <change afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chess/ChessPiece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chess/Color.java" afterDir="false" />
+    <list default="true" id="4933b379-0143-49eb-8f22-9acd1e228bf4" name="Changes" comment="Chess layer and printing the board">
+      <change afterPath="$PROJECT_DIR$/src/chess/pieces/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chess/pieces/Rook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boardgame/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
       <workItem from="1661599783351" duration="1002000" />
       <workItem from="1661688915059" duration="3526000" />
       <workItem from="1661774128733" duration="627000" />
-      <workItem from="1661956170454" duration="601000" />
+      <workItem from="1661956170454" duration="1248000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1661366710481</created>
@@ -78,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661367597695</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Chess layer and printing the board">
+      <created>1661957633195</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661957633195</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +105,7 @@
     <MESSAGE value="Create Position.java class" />
     <MESSAGE value="Create Board.java and Piece.java" />
     <MESSAGE value="Create ChessMatch and UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create ChessMatch and UI" />
+    <MESSAGE value="Chess layer and printing the board" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chess layer and printing the board" />
   </component>
 </project>
