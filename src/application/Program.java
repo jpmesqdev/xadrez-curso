@@ -2,11 +2,14 @@ package application;
 
 import boardgame.Board;
 import boardgame.Position;
+import chess.ChessMatch;
+import chess.ChessPiece;
 
 public class Program {
 
     public static void main(String[] args) {
-        Board board = new Board(8, 9);
+        ChessMatch chessMatch = new ChessMatch();
+        UI.printBoard(new ChessPiece[8][8]);
     }
 
 }
