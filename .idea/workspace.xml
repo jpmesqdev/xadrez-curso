@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4933b379-0143-49eb-8f22-9acd1e228bf4" name="Changes" comment="Possible moves of a piece">
+    <list default="true" id="4933b379-0143-49eb-8f22-9acd1e228bf4" name="Changes" comment="PerformMove bug fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boardgame/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boardgame/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boardgame/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boardgame/Piece.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chess/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessPiece.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chess/pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/pieces/Rook.java" afterDir="false" />
@@ -43,6 +45,15 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="term" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="application.Program" />
+      <module name="xadrez-curso" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,6 +71,7 @@
       <workItem from="1662155632726" duration="5447000" />
       <workItem from="1662571309446" duration="2917000" />
       <workItem from="1662592666876" duration="3298000" />
+      <workItem from="1662726518450" duration="2073000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1661366710481</created>
@@ -168,6 +180,7 @@
     <MESSAGE value="Moving pieces" />
     <MESSAGE value="Handling exceptions and clearing screen" />
     <MESSAGE value="Possible moves of a piece" />
-    <option name="LAST_COMMIT_MESSAGE" value="Possible moves of a piece" />
+    <MESSAGE value="PerformMove bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="PerformMove bug fix" />
   </component>
 </project>
