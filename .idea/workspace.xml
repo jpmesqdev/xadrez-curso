@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4933b379-0143-49eb-8f22-9acd1e228bf4" name="Changes" comment="PerformMove bug fix">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boardgame/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boardgame/Piece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/pieces/Rook.java" afterDir="false" />
-    </list>
+    <list default="true" id="4933b379-0143-49eb-8f22-9acd1e228bf4" name="Changes" comment="bug: printboard" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +63,7 @@
       <workItem from="1662155632726" duration="5447000" />
       <workItem from="1662571309446" duration="2917000" />
       <workItem from="1662592666876" duration="3298000" />
-      <workItem from="1662726518450" duration="2073000" />
+      <workItem from="1662726518450" duration="2468000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1661366710481</created>
@@ -150,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662593411875</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="bug: printboard">
+      <created>1662731105096</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662731105096</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +180,7 @@
     <MESSAGE value="Handling exceptions and clearing screen" />
     <MESSAGE value="Possible moves of a piece" />
     <MESSAGE value="PerformMove bug fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="PerformMove bug fix" />
+    <MESSAGE value="bug: printboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug: printboard" />
   </component>
 </project>
