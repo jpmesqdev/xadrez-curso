@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4933b379-0143-49eb-8f22-9acd1e228bf4" name="Changes" comment="Switching player each turn">
+    <list default="true" id="4933b379-0143-49eb-8f22-9acd1e228bf4" name="Changes" comment="Handling captured pieces">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessPiece.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,16 +30,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Project.color": "0a5848",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/DELL/Downloads/xadrez-curso",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;0a5848&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/Downloads/xadrez-curso&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Font&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="term" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="application.Program" />
@@ -69,6 +67,7 @@
       <workItem from="1662571309446" duration="2917000" />
       <workItem from="1662592666876" duration="3298000" />
       <workItem from="1662726518450" duration="2073000" />
+      <workItem from="1662846580167" duration="520000" />
     </task>
     <task id="LOCAL-00001" summary="Create project">
       <created>1661366710481</created>
@@ -168,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662763190225</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Handling captured pieces">
+      <created>1662764885977</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1662764885977</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +208,8 @@
     <MESSAGE value="Printing possible moves + bugfix" />
     <MESSAGE value="Implementing possible moves of King" />
     <MESSAGE value="Switching player each turn" />
-    <option name="LAST_COMMIT_MESSAGE" value="Switching player each turn" />
+    <MESSAGE value="Handling captured pieces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handling captured pieces" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
